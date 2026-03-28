@@ -5,16 +5,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>En la pestaña</title>
-    <script src="./js/app.js" type="module"></script>
+    <script src="./js/toDoList.js" type="module"></script>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11" defer></script>
     <script src="https://cdn.jsdelivr.net/npm/@tsparticles/confetti@3.0.3/tsparticles.confetti.bundle.min.js"
         defer></script>
 </head>
 
 <body>
-    <h1>Para cargar el listado haz click en el botón de abajo...</h1>
+
+    <h1>Listado de tareas</h1>
+    <hr>
+    <div>
+        <input type="text" id="nuevaTarea" placeholder="Ingresa tu tarea">
+        <button id="enviar">🦾</button>
+    </div>
+    <ul class="tareas">
+
+    </ul>
+
+    <!-- <h1>Para cargar el listado haz click en el botón de abajo...</h1>
     <main>****- </main>
-    <button>Cargar lista 😁</button>
+    <button>Cargar lista 😁</button> -->
 </body>
 
 </html>

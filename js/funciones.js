@@ -49,3 +49,9 @@ export const $ = function (elemento) {
 }
 
 export const url = "https://dragonball-api.com/api/characters"
+
+export const mapearListado = (tareasUL, tareas) => {
+    tareasUL.innerHTML = ""
+    tareasUL.insertAdjacentHTML("afterbegin", 
+        `<li>${tareas.join("</li><li>")}   </li>`)
+}
